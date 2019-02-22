@@ -1,462 +1,195 @@
-
 <!DOCTYPE html>
 
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128216597-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-128216597-2');
-  </script>
 
-  <!--script src="./particles.js"></script-->
-  <!--script src="./app.js"></script-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128216597-2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-128216597-2');
+        </script>
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Oshin Nayak | Design Portfolio</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="mainhome.css">
+        <link rel='shortcut icon' type='image/x-icon' href='./images/logo_gradient.ico' />
+        <script async="" src="analytics.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+          </head>
+    <body>
+      <div class="wrap">
+        <header class="site-header" id="site-header" role="banner">
+          <section class="me">
+            <hgroup>
+              <h1>
+                <a href="">Oshin Nayak</a>
+              </h1>
+              <h2>Product Designer &amp; Research Enthusiast</h2>
+            </hgroup>
+          </section>
 
-  <title>Oshin Nayak | Design Portfolio</title>
-  <meta name="description" content="Hello! I'm a graduate student and Product Designer. Most recently I interned at Nutanix,Inc. with their Design Team.">
-  <link rel="stylesheet" href="./css" >
-  <link rel="stylesheet" href="./main.css">
-  <link rel="stylesheet" type="text/css" href="hover-min.css">
-  <link rel="icon" type="image/png" href="./images/logo_me.png" />
-	<meta name="theme-color" content="#ffffff">
-  <!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <nav class="site-nav" role="navigation">
+            <ul>
+        <li class="current">
+                  <a href="home.html">Projects</a>
+                </li>
+        <li class="">
+                  <a href="aboutme.html" target="_blank" >About</a>
+                </li>
+        <li class="">
+                 <a target="_blank" href="https://drive.google.com/file/d/1DhGU2dIXAABs6Xp-C34-LtBQTFHK_A5S/preview?usp=sharing">Resume</a>
+                </li>
 
-</head>
+            </ul>
+          </nav>
+        </header>
 
+        <main class="main" id="main" role="main">
+          <section class="projects">
 
-  <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+        <article class="project">
+            <div class="project-featured-image nutanix"></div>
 
-<div class="main-container">
- <div class="page-content">
+            <div class="project-details">
+                <div class="project-info">
+                    <h3 class="name">Nutanix Design</h3>
+                    <p class="role">Summer internship</p>
 
- <div class="wrapper">
- <div>
-    <br><br>
-    <br><br>
-    <br><br>
-
-<div class="intro-home">
-<span class="intro-header"><strong>Oshin</strong> Nayak.</span>
-  <br>
-    <p>A <span class="text">product designer and research enthusiast</span> seeking full time UX opportunities.</p>
-    <p>Past projects are about  <span class="text">talking to users and making prototypes</span> to create simple meaningful experiences.</p>
-
-    <nav class="cl-effect-7">
-      <a class="nohover navlinks" href="#Portfolio">Portfolio</a>
-      <a class="nohover navlinks" href="#aboutme">More About Me</a>
-      <a class="nohover navlinks" target="_blank" href="https://drive.google.com/file/d/1DhGU2dIXAABs6Xp-C34-LtBQTFHK_A5S/preview?usp=sharing">Click View Resume</a>
-    </nav>
-
-<br><br><br>
-</div>
-
-
- <div>
-  <article>
-
-  <div class="home">
-<div class="section-header" id="Portfolio">Portfolio<strong>.</strong></div>
-<br>
-    <div id="myBtnContainer" style="text-align: center!important;">
-    <button class="btn active" onclick="allSelection()"> All</button>
-    <button class="btn" onclick="designSelection()"> UX Design</button>
-    <button class="btn" onclick="researchSelection()"> UX Research</button>
-    <button class="btn" onclick="productSelection()"> Product Design</button>
-    <button class="btn" onclick="visualSelection()"> Visual Design</button>
-  </div>
-<br>
-<div class="tab" style="text-align: center!important;">
-    <span class="design" id="span1">
-        <a href="nutanixdesign.html" target="_blank"  class="nohover">
-           <div class="card card--article not-visible hvr-grow">
-              <!--Article-->
-              <div class="card-body">
-                 <div class="card-hero">
-                    <div class="card-image" style="background-image: url(./images/1.png);">
+                    <div class="project-links">
+                        <ul>
+                                <li><a href="nutanixproject.html" target="_blank">View project</a></li>
+                        </ul>
                     </div>
-                 </div>
-                 <div class="card-title">Nutanix Design</div>
-                 <div class="card-description card-description--clamp-3">
-                    Designed features for Nutanix Prism - an enterprise solution for virtualized datacenters.
-                 </div>
-              </div>
-
-           </div>
-        </a>
-      </span>
-      <span class="design research" id="span2">
-        <a href="saferoute.html" target="_blank"  class="nohover">
-           <div class="card card--article not-visible hvr-grow">
-              <!--Article-->
-              <div class="card-body">
-                 <div class="card-hero">
-                    <div class="card-image" style="background-image: url(./images/3.png);">
-                    </div>
-                 </div>
-                 <div class="card-title">SafeRoute</div>
-                 <div class="card-description card-description--clamp-3">
-                   A mobile application concept prioritizing safety to improve experiences of traveling alone.
-                 </div>
-              </div>
-           </div>
-        </a>
-      </span>
-</div>
-<div class="tab" style="text-align: center!important;">
-  <span class="product research design" id="span3">
-      <a href="digitizingawareness.html" target="_blank"  class="nohover">
-             <div class="card card--article not-visible hvr-grow">
-                <div class="card-body">
-                   <div class="card-hero">
-                      <div class="card-image" style="background-image: url(./images/5.png);">
-                      </div>
-                   </div>
-                   <div class="card-title">Digitizing Awareness</div>
-                   <div class="card-description card-description">
-                      A museum exhibit prototype using art as a medium for creating awareness about Rohingya Refugees.
-                   </div>
-                </div>
-             </div>
-          </a>
-</span>
-<span class="product design research" id="span4">
-          <a href="remi.html" target="_blank"  class="nohover">
-             <div class="card card--article not-visible hvr-grow">
-                <div class="card-body">
-                   <div class="card-hero">
-                      <div class="card-image" style="background-image: url(./images/7.png);">
-                      </div>
-                   </div>
-                   <div class="card-title">Remi</div>
-                   <div class="card-description card-description">
-                      A simple smart cushion that monitors sitting duration, posture, and reminds you to take stretch breaks.
-                   </div>
-                </div>
-             </div>
-          </a>
-<span>
-</div>
-<div class="tab" style="text-align: center!important;">
-  <span class="design research" id="span5">
-    <a href="graphicdesign.html" target="_blank"  class="nohover">
-       <div class="card card--article not-visible hvr-grow">
-
-          <div class="card-body">
-             <div class="card-hero">
-                <div class="card-image" style="background-image: url(./images/6.png);">
-                </div>
-             </div>
-             <div class="card-title">Graphic Design</div>
-             <div class="card-description card-description--clamp-3">
-                A curation of four visual design projects exploring diverse methods.
-             </div>
-          </div>
-
-       </div>
-    </a>
-
-  </span>
-  <span class="research" id="span6">
-        <a href="melredesign.html" target="_blank"  class="nohover">
-           <div class="card card--article not-visible hvr-grow">
-              <!--Article-->
-              <div class="card-body">
-                 <div class="card-hero">
-                    <div class="card-image" style="background-image: url(./images/2.png);">
-                    </div>
-                 </div>
-                 <div class="card-title">Michigan eLibrary</div>
-                 <div class="card-description card-description--clamp-3">
-                    Redesigned e-library website for librarians in Michigan by modifying information hierarchy, visual design, and global search mechanisms.
-                 </div>
-              </div>
-           </div>
-        </a>
- </span>
-
-</div>
-
-<!-- span 7,8
-
-<div class="tab" style="text-align: center!important;">
-  <span class="research product" id="span7">
-          <a href="smartseat.html" target="_blank"  class="nohover">
-             <div class="card card--article not-visible hvr-grow">
-
-                <div class="card-body">
-                   <div class="card-hero">
-                      <div class="card-image" style="background-image: url(./images/images-07.png);">
-                      </div>
-                   </div>
-                   <div class="card-title">UP</div>
-                   <div class="card-description card-description--clamp-3">
-                      A product that helps geriatrics get up from chairs and sofas by providing controlled elevation.
-                   </div>
                 </div>
 
-             </div>
-          </a>
+                <div class="project-description">
+                    <p> Designed features for Nutanix Prism - an enterprise solution for virtualized datacenters and demonstrated them through high fidelity prototypes.</p>
+                    <p>Project is under NDA (hence no designs have been shared here).</p>
+                </div>
 
-    </span>
-    <span class="visual" id="span8">
-      <a href="datadrivendetroit.html" target="_blank"  class="nohover">
-         <div class="card card--article not-visible hvr-grow">
-
-            <div class="card-body">
-               <div class="card-hero">
-                  <div class="card-image" style="background-image: url(./images/images-05.png);">
-                  </div>
-               </div>
-               <div class="card-title">Data Driven Detroit</div>
-               <div class="card-description card-description--clamp-3">
-                 Developing user friendly training modules for State of the Detroit Child database tool.</div>
             </div>
+        </article>
+        <article class="project">
+            <div class="project-featured-image detroit"></div>
 
-         </div>
-      </a>
+            <div class="project-details">
+                <div class="project-info">
+                    <h3 class="name">Data Driven Detroit</h3>
+                    <p class="role">UX Design</p>
+                    <div class="project-links">
+                        <ul>
+                                  <li><a href="datadrivendetroit.html" target="_blank">View project</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-      </span>
-</div>
--->
-    </div>
-<br><br><br>
+                <div class="project-description">
+                    <p>Youtube tutorials are so helpful. Can we create tutorials for open source civic websites?</p>
+                    <p>I designed user-friendly training modules to guide users while exploring database tools on Detroit's children.</p>
+                </div>
 
-  <div class="section-header" id="aboutme">About Me<strong>.</strong></div>
-    <div style="height:auto;text-align:center;">
-        <img src="./images/oshin_nayak.png" alt="Profile Image Oshin Nayak" style="padding-bottom:4px;">
-        <h5>Every name has a story? Mine has a <a target="_blank" href="https://www.imdb.com/title/tt0367380/">series.</a></h5>
-
-    </div>
-
-        I am pursing a masters in Human Computer Interaction at the University of Michigan School of Information.
-
-      <p> Most recently I interned at <a href="https://www.nutanix.com/">
-       Nutanix, San Jose</a> with their <a href="http://nutanix.design/team/">Design Team.</a>
-       Organizations I have worked with in the past that made me a user research enthusiast!</p>
-
-
-    </div>
-</div>
-</article>
-
-</div>
-<br>
-<div class="wrapper" style="text-align:center;">
-<img src="./images/timeline.png" alt="Worked at Oshin Nayak">
-</div>
-<br><br>
-</div>
-
-</body>
-
-
-</div>
-
-
-<div class="credits">
-<br><br>
-<br>
- <div class="wrapper nav">
-   <a href="mailto:onayak@umich.edu" class="nohover" aria-label="mail" style="padding:1%;"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
-     <a target="_blank" href="https://www.linkedin.com/in/oshinnayak" style="padding:1%;" class="nohover" aria-label="linkedin"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
-     <a target="_blank" href="https://www.instagram.com/oshin_nayak/" style="padding:1%;" class="nohover" aria-label="instagram"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
-     <a target="_blank" href="https://twitter.com/oshinnayak" style="padding:1%;" class="nohover" aria-label="twitter"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
-
-<br>
-   <div class="footer-info">
-       <small class="footer-copyright">Iteratively created with chocolates and coffee.<span id="footer-year"></span> © Oshin Nayak 2019.</small>
-   </div>
-</div>
-<br>
-</div>
-
-</html>
+            </div>
+        </article>
 
 
 
-<script>
-setTimeout(function(){
-    $('.text').addClass('highlightheader')
-}, 1000);
+        <article class="project">
+            <div class="project-featured-image remi"></div>
 
-</script>
+            <div class="project-details">
+                <div class="project-info">
+                    <h3 class="name">Remi</h3>
+                    <p class="role">Product Design</p>
+                    <div class="project-links">
+                        <ul>
+                                <li><a href="remiproject.html" target="_blank">View project</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-<script
-src="https://code.jquery.com/jquery-2.1.3.min.js"
-integrity="sha256-ivk71nXhz9nsyFDoYoGf2sbjrR9ddh+XDkCcfZxjvcM="
-crossorigin="anonymous">
-</script>
+                <div class="project-description">
+                    <p>We all sit and work for hours. Maybe get up to grab some coffee occasionally?</p>
+                    <p>Remi is a smart seat that monitors sitting duration and posture. It helps you stay active and productive at the same time by reminding you to take breaks.</p>
 
-<script>
+                </div>
 
+            </div>
+        </article>
+        <article class="project">
+            <div class="project-featured-image SafeRoute"></div>
 
-
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("myBtn").style.display = "block";
-  } else {
-    document.getElementById("myBtn").style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-
-
-filterSelection("all")
-
-var span1 = document.getElementById("span1").innerHTML;
-var span2 = document.getElementById("span2").innerHTML;
-var span3 = document.getElementById("span3").innerHTML;
-var span4 = document.getElementById("span4").innerHTML;
-var span5 = document.getElementById("span5").innerHTML;
-var span6 = document.getElementById("span6").innerHTML;
-//var span7 = document.getElementById("span7").innerHTML;
-//var span8 = document.getElementById("span8").innerHTML;
-
-function allSelection(){
-  document.getElementById("span1").innerHTML = span1;
-  document.getElementById("span2").innerHTML = span2;
-  document.getElementById("span3").innerHTML = span3;
-  document.getElementById("span4").innerHTML = span4;
-  document.getElementById("span5").innerHTML = span5;
-  document.getElementById("span6").innerHTML = span6;
-  //document.getElementById("span7").innerHTML = span7;
-  //document.getElementById("span8").innerHTML = span8;
-
-  document.getElementById("span1").style.display = "inline";
-  document.getElementById("span2").style.display = "inline";
-  document.getElementById("span3").style.display = "inline";
-  document.getElementById("span4").style.display = "inline";
-  document.getElementById("span5").style.display = "inline";
-  document.getElementById("span6").style.display = "inline";
-  //document.getElementById("span7").style.display = "inline";
-  //document.getElementById("span8").style.display = "none";
-}
-
-function designSelection(){
-  document.getElementById("span1").innerHTML = span1;
-  document.getElementById("span2").innerHTML = span2;
-  //document.getElementById("span3").innerHTML = span3;
-  //document.getElementById("span4").innerHTML = span5;
-//  document.getElementById("span5").innerHTML = span6;
-
-  document.getElementById("span1").style.display = "inline";
-  document.getElementById("span2").style.display = "inline";
-
-  document.getElementById("span3").style.display = "none";
-  document.getElementById("span4").style.display = "none";
-  document.getElementById("span5").style.display = "none";
-  document.getElementById("span6").style.display = "none";
-  //document.getElementById("span7").style.display = "none";
-  //document.getElementById("span8").style.display = "none";
-}
-
-function researchSelection(){
-  document.getElementById("span1").innerHTML = span2;
-  document.getElementById("span2").innerHTML = span4;
-  document.getElementById("span3").innerHTML = span6;
-  //document.getElementById("span4").innerHTML = span7;
-
-  document.getElementById("span1").style.display = "inline";
-  document.getElementById("span2").style.display = "inline";
-  document.getElementById("span3").style.display = "inline";
-  //document.getElementById("span4").style.display = "inline";
+            <div class="project-details">
+                <div class="project-info">
+                    <h3 class="name">SafeRoute</h3>
+                    <p class="role">Interaction Design</p>
+                    <div class="project-links">
+                        <ul>
+                                <li><a href="saferouteproject.html" target="_blank">View project</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-description">
+                    <p> SafeRoute is a mobile app concept prioritizing safety while traveling alone.</p>
+                    <p>We have all had map apps trick us into taking shorter routes but have they always been
+                      the safest ones?</p>
+                </div>
+            </div>
+        </article>
 
 
-  document.getElementById("span4").style.display = "none";
-  document.getElementById("span5").style.display = "none";
-  document.getElementById("span6").style.display = "none";
-  //document.getElementById("span7").style.display = "none";
-  //document.getElementById("span8").style.display = "none";
-}
 
-function productSelection(){
-  document.getElementById("span1").innerHTML = span3;
-  document.getElementById("span2").innerHTML = span4;
-  //document.getElementById("span3").innerHTML = span7;
+                        <article class="project">
+                            <div class="project-featured-image graphic"></div>
 
-  document.getElementById("span1").style.display = "inline";
-  document.getElementById("span2").style.display = "inline";
-  //document.getElementById("span3").style.display = "inline";
+                            <div class="project-details">
+                                <div class="project-info">
+                                    <h3 class="name">Graphic Design</h3>
+                                    <p class="role">Visual Design</p>
+                                    <div class="project-links">
+                                        <ul>
+                                                <li>Coming Soon.</li>
+                                        </ul>
+                                    </div>
+                                </div>
 
+                                <div class="project-description">
+                                    <p>Isn't the visual aspect of a dish is so important to strike the right mood? Similarly, visual design of digital interfaces are impactful in conveying the right idea.</p>
+                                    <p>Curation of my favorite graphic design projects, showing off different methods and moods.
+                                </div>
 
-  document.getElementById("span3").style.display = "none";
-  document.getElementById("span4").style.display = "none";
-  document.getElementById("span5").style.display = "none";
-  document.getElementById("span6").style.display = "none";
-//  document.getElementById("span7").style.display = "none";
-//  document.getElementById("span8").style.display = "none";
-}
-
-function visualSelection(){
-  document.getElementById("span1").innerHTML = span5;
-
-  document.getElementById("span1").style.display = "inline";
-
-  document.getElementById("span2").style.display = "none";
-  document.getElementById("span3").style.display = "none";
-  document.getElementById("span4").style.display = "none";
-  document.getElementById("span5").style.display = "none";
-  document.getElementById("span6").style.display = "none";
-  //document.getElementById("span7").style.display = "none";
-}
+                            </div>
+                        </article>
 
 
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("tab");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
-
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
-    }
-  }
-  element.className = arr1.join(" ");
-}
 
 
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-</script>
+</section>
+
+        </main>
+
+        <footer class="site-footer" id="site-footer" role="contentinfo">
+            <section class="location">
+              <div class="blip">
+                <div class="blip-base"></div>
+                <div class="blip-pulse"></div>
+              </div>
+              <p><span class="currently">Currently: Ann Arbor, MI</span>
+            </p></section>
+
+            <section class="social">
+              <ul>
+                <li><a href="mailto:onayak@umich.me">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/oshinnayak/">LinkedIn</a></li>
+                <li><a href="https://twitter.com/oshinnayak">Twitter</a></li>
+              </ul>
+            </section>
+        </footer>
+      </div>
+
+
+
+
+</body></html>
