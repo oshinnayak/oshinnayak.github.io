@@ -629,6 +629,15 @@ html, body {
     .projects .project .project-featured-image.detroit {
       background-image: url("./images/8.png");
     }
+	  
+	   .projects .project .project-featured-image.victoria {
+    background-image: url("./images/vs.png");
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (-moz-min-device-pixel-ratio: 2) {
+    /* line 64, ../sass/util/_mixin.scss */
+    .projects .project .project-featured-image.victoria {
+      background-image: url("./images/vs.png");
+    }
 }
 /* line 21, ../sass/parts/_home.scss */
 .projects .project .project-details {
